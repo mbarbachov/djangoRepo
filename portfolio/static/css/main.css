@@ -1,15 +1,30 @@
 body {
     background-color: #F8F8F8 !important;
+    height: 100% !important;
     user-focus: none;
     outline: none;
     user-select: none;
 }
 
 #profile-wrapper {
+    position: center;
     text-align: center;
 }
 
 #profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile-wrapper1 {
+    position: center;
+    text-align: center;
+}
+
+#profile-pic1 {
     width: 150px;
     height: 150px;
     border-radius: 50%;

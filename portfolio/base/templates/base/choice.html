@@ -1,0 +1,45 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>About</title>
+
+        <!-- Connect bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+              integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+              crossorigin="anonymous">
+
+        <!-- Connect the main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-body h-100 border-success" id='profile-wrapper'>
+                        <img id='profile-pic' alt="Michael's profile picture"
+                             src="{% static 'images/profiles/michael_profile1.png' %}">
+                        <hr>
+                        <h4>Hi I'm Michael!</h4>
+                        <p>I love coding and learning about new things.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-body h-100 border-success" id='profile-wrapper1'>
+                        <img id='profile-pic1' alt="Huzefa's profile picture"
+                             src="{% static 'images/profiles/huzefa_profile.jpeg' %}">
+                        <hr>
+                        <h4>Hi I'm Huzefa!</h4>
+                        <p>3rd Year, Robotics & AI -
+                            Aberystwyth university</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
